@@ -89,6 +89,7 @@ internal class Program
 
     private static void Trace(string message)
     {
+        // Creo que esto nunca ha funcionado
         using (var telemetrySpan = tracer.StartActiveSpan("TEST.Trace"))
         {
             telemetrySpan?.AddEvent($"Trace33: {message}");
