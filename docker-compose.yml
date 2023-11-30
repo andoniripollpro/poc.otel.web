@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  myapp:
+    image: andonicacharreo.jfrog.io/docker/poc_otel_web
+    ports:
+      - "8080:8080"
+  kestrel:
+    endpoints:
+      http:
+        url: "http://0.0.0.0:8080"

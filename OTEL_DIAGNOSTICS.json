@@ -1,0 +1,5 @@
+{
+  "LogDirectory": "C:\\Log\\POC.OTEL",
+  "FileSize": 32768,
+  "LogLevel": "Warning"
+}
